@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Research Notes</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="container">
+    <header class="row space-between">
+      <h1>Notes</h1>
+      <a class="link" href="options.html" target="_blank" rel="noopener">Tags</a>
+    </header>
+
+    <div class="row gap">
+      <input id="search" class="input" placeholder="Search notes..." />
+      <select id="tagFilter" class="input">
+        <option value="">All tags</option>
+      </select>
+    </div>
+
+    <div id="list" class="list"></div>
+
+    <template id="noteTpl">
+      <div class="card">
+        <div class="row space-between">
+          <span class="pill" data-tag></span>
+          <button class="btn danger" data-delete>Delete</button>
+        </div>
+        <div class="text" data-text></div>
+        <a class="link" data-link target="_blank" rel="noopener"></a>
+        <div class="meta" data-meta></div>
+      </div>
+    </template>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
