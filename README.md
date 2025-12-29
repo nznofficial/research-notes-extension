@@ -1,5 +1,3 @@
-Here’s a **clean, professional README** you can copy-paste directly into `README.md` for the **Research Notes** extension. It’s written to be clear for **you**, other developers, and future-you.
-
 ---
 
 # 📝 Research Notes – Chrome Extension
@@ -131,12 +129,3 @@ The extension is now available in your browser.
 MIT License — free to use, modify, and distribute.
 
 ---
-
-If you want, next we can:
-
-* Add **sync support**
-* Refactor storage into a clean “repository” module
-* Turn this into a **publish-ready Chrome Web Store listing**
-* Convert the popup to **React**
-
-Just say what’s next.
